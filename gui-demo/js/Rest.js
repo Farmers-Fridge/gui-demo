@@ -1,8 +1,7 @@
 .pragma library
 
 function urlRoot() {
-   // return "qrc://"
-    return ":"
+    return "qrc://"
 }
 
 function urlStatic(path) {

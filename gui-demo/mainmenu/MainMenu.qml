@@ -23,12 +23,10 @@ Image {
         XmlListModel {
             id: categoryVendItemXmlModel
             source: gets.of("/rest/config/items.xml")
-            query: "/vendItems/item"
+            query: "/itemList/item"
 
-            XmlRole { name: "vendItemNameModel"; query: "vendItemName/string()" }
-            XmlRole { name: "vendItemIconModel"; query: "icon/string()" }
-            XmlRole { name: "vendItemNutritionalIconModel"; query: "nutrition/string()" }
-            XmlRole { name: "vendItemPriceModel"; query: "price/string()" }
+            XmlRole { name: "nameModel"; query: "name/string()" }
+            XmlRole { name: "iconModel"; query: "icon/string()" }
         }
 
         ColumnLayout {
@@ -38,7 +36,7 @@ Image {
 
             MainMenuItemButtonBlock {
                 id: buttons
-                anchors.top: parent.bottom
+                anchors.top: parent.top
                 anchors.bottom: footer.top
                 Layout.alignment: Qt.AlignCenter
                 height: parent.height * .70

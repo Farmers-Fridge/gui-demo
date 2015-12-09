@@ -1,78 +1,39 @@
 <?xml version="1.0"?>
-<vendItems>
+<itemList>
   <item>
-    <vendItemName>Turkey Day Salad</vendItemName>
-    <icon>/GOLDEN_UI/12VENDABLES_SALADS/turkey_day_salad.png</icon>
-    <nutrition>
-/GOLDEN_UI/14_nutrional/salads/turkey_day_salad.png
-</nutrition>
-    <category>Salads</category>
-    <price>$9.00</price>
+    <name>Add</name>
+    <icon>buttons/add.png</icon>
   </item>
   <item>
-    <vendItemName>Lemongrass Chicken Salad</vendItemName>
-    <icon>
-/GOLDEN_UI/12VENDABLES_SALADS/lemongrass_chicken_salad.png
-</icon>
-    <nutrition>
-/GOLDEN_UI/14_nutrional/salads/Lemongrass_Chicken_N.png
-</nutrition>
-    <category>Salads</category>
-    <price>$8.00</price>
+    <name>Announcement</name>
+    <icon>buttons/announcement.png</icon>
   </item>
   <item>
-    <vendItemName>North Napa Salad</vendItemName>
-    <icon>/GOLDEN_UI/12VENDABLES_SALADS/NORTH_NAPA_SALAD.png</icon>
-    <nutrition>/GOLDEN_UI/14_nutrional/salads/north_napa.png</nutrition>
-    <category>Salads</category>
-    <price>$8.00</price>
+    <name>Cart</name>
+    <icon>buttons/cart.png</icon>
   </item>
   <item>
-    <vendItemName>Shaved Kale Salad</vendItemName>
-    <icon>/GOLDEN_UI/12VENDABLES_SALADS/shaved_kale.png</icon>
-    <nutrition>/GOLDEN_UI/14_nutrional/salads/shaved_kale.png</nutrition>
-    <category>Salads</category>
-    <price>$7.00</price>
+    <name>Comment</name>
+    <icon>buttons/comment.png</icon>
   </item>
   <item>
-    <vendItemName>Avocado BLT Salad</vendItemName>
-    <icon>/GOLDEN_UI/12VENDABLES_SALADS/AvocadoBLT.png</icon>
-    <nutrition>/GOLDEN_UI/14_nutrional/salads/avocado.png</nutrition>
-    <category>Salads</category>
-    <price>$9.00</price>
+    <name>Comments</name>
+    <icon>buttons/comments.png</icon>
   </item>
   <item>
-    <vendItemName>Cheater Salad</vendItemName>
-    <icon>/GOLDEN_UI/12VENDABLES_SALADS/the_cheater.png</icon>
-    <nutrition>/GOLDEN_UI/14_nutrional/salads/cheater.png</nutrition>
-    <category>Salads</category>
-    <price>$8.00</price>
+    <name>Design</name>
+    <icon>buttons/designfloat.png</icon>
   </item>
   <item>
-    <vendItemName>Shrimp Succotash Salad</vendItemName>
-    <icon>/GOLDEN_UI/12VENDABLES_SALADS/Shrimp_Succotash.png</icon>
-    <nutrition>
-/GOLDEN_UI/14_nutrional/salads/Shrimp_Succotash_N.png
-</nutrition>
-    <category>Salads</category>
-    <price>$12.00</price>
+    <name>Favorite</name>
+    <icon>buttons/favorite.png</icon>
   </item>
   <item>
-    <vendItemName>Southwest Salad</vendItemName>
-    <icon>/GOLDEN_UI/12VENDABLES_SALADS/Southwest_Salad.png</icon>
-    <nutrition>
-/GOLDEN_UI/14_nutrional/salads/southwest_8_21_15.png
-</nutrition>
-    <category>Salads</category>
-    <price>$7.00</price>
+    <name>Favorites</name>
+    <icon>buttons/favorites.png</icon>
   </item>
   <item>
-    <vendItemName>High Protein Salad</vendItemName>
-    <icon>
-/GOLDEN_UI/12VENDABLES_SALADS/HIGH_PROTEIN_SALAD.png
-</icon>
-    <nutrition>/GOLDEN_UI/14_nutrional/salads/high_prot.png</nutrition>
-    <category>Salads</category>
-    <price>$7.00</price>
+    <name>Warning</name>
+    <icon>buttons/warning.png</icon>
   </item>
-</vendItems>
+</itemList>

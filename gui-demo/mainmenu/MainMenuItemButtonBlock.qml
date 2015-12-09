@@ -31,7 +31,7 @@ Rectangle {
 
                     Image {
                         id: button
-                        source: assets.of(vendItemIconModel)
+                        source: assets.of(iconModel)
                         fillMode: Image.PreserveAspectFit
                         property real buttonScale: .90
                         width: parent.width * buttonScale

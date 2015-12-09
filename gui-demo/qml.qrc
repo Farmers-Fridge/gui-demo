@@ -15,5 +15,15 @@
         <file>image/background.png</file>
         <file>image/button.png</file>
         <file>image/goback.png</file>
+        <file>rest/config/items.xml</file>
+        <file>image/buttons/warning.png</file>
+        <file>image/buttons/add.png</file>
+        <file>image/buttons/announcement.png</file>
+        <file>image/buttons/cart.png</file>
+        <file>image/buttons/comment.png</file>
+        <file>image/buttons/comments.png</file>
+        <file>image/buttons/designfloat.png</file>
+        <file>image/buttons/favorite.png</file>
+        <file>image/buttons/favorites.png</file>
     </qresource>
 </RCC>

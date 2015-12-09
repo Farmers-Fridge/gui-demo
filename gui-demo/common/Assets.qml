@@ -4,7 +4,7 @@ import "../js/Rest.js" as Rest
 Item {
 
     function of(url) {
-        // console.log("ASSET: " + url)
+        console.log("ASSET: " + url)
         return Rest.urlStatic("/image/" + url)
     }
 
