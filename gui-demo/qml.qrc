@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>common/Assets.qml</file>
+        <file>splash/SplashPage.qml</file>
+        <file>mainmenu/MainMenu.qml</file>
+        <file>common/Gets.qml</file>
+        <file>common/Colors.qml</file>
+        <file>common/Fonts.qml</file>
+        <file>js/Rest.js</file>
+        <file>splash/SplashButton.qml</file>
+        <file>mainmenu/MainMenuItemButtonBlock.qml</file>
+        <file>mainmenu/MainMenuFooterBlock.qml</file>
+        <file>common/RockwellStd.otf</file>
+        <file>image/background.png</file>
+        <file>image/button.png</file>
+        <file>image/goback.png</file>
+    </qresource>
+</RCC>
