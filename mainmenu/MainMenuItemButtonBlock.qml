@@ -1,4 +1,5 @@
 import QtQuick 2.4
+import "../keyboard"
 
 Rectangle {
     color: "transparent"
@@ -39,17 +40,13 @@ Rectangle {
                         anchors.centerIn: parent
                         MouseArea {
                             anchors.fill: parent
-//                            property Component vendItemPageComponent: VendItemPage {
-//                                vendItemName: vendItemNameModel
-//                                vendItemImage: vendItemIconModel
-//                                vendItemNutritionalImage: vendItemNutritionalIconModel
-//                                vendItemCategoryName: categoryName
-//                                vendItemPrice : vendItemPriceModel
-//                            }
-//                            onClicked: {
-//                                console.log("Clicked VendItem: " + vendItemNameModel);
-//                                push(vendItemPageComponent)
-//                            }
+                            property Component keyboardComponent: KeyboardPage {
+                                startText: nameModel
+                            }
+                            onClicked: {
+                                console.log("Clicked Item: " + nameModel);
+                                push(keyboardComponent)
+                            }
                         }
                     }
                 }

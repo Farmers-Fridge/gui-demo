@@ -5,7 +5,7 @@ function urlRoot() {
 }
 
 function urlStatic(path) {
-    console.log("-- Rest: GET " + urlRoot() + path)
+    //console.log("-- Rest: GET " + urlRoot() + path)
     return urlRoot() + path
 }
 

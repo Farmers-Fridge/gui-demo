@@ -4,7 +4,7 @@ import "../js/Rest.js" as Rest
 Item {
 
     function of(url) {
-        console.log("GET: " + url)
+        //console.log("GET: " + url)
         return Rest.urlStatic(url)
     }
 

@@ -25,5 +25,22 @@
         <file>image/buttons/designfloat.png</file>
         <file>image/buttons/favorite.png</file>
         <file>image/buttons/favorites.png</file>
+        <file>image/cancel.png</file>
+        <file>splash/SplashPageFooterBlock.qml</file>
+        <file>keyboard/KeyboardPage.qml</file>
+        <file>keyboard/KeyboardTextInput.qml</file>
+        <file>keyboard/InputPanel.qml</file>
+        <file>keyboard/KeyButton.qml</file>
+        <file>keyboard/KeyModel.qml</file>
+        <file>image/buttons/heart.png</file>
+        <file>image/buttons/idea.png</file>
+        <file>image/buttons/mail.png</file>
+        <file>image/buttons/not-allowed.png</file>
+        <file>image/buttons/paint.png</file>
+        <file>image/buttons/pencil.png</file>
+        <file>image/buttons/recycle.png</file>
+        <file>image/buttons/rss.png</file>
+        <file>image/buttons/search.png</file>
+        <file>image/buttons/settings.png</file>
     </qresource>
 </RCC>

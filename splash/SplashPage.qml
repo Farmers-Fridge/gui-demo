@@ -8,21 +8,6 @@ Image {
     source: assets.backgroundImage
     fillMode: Image.Stretch
 
-    Rectangle {
-        // click in center, bottom of splash screen to exit
-        height: 300
-        width: 60
-        color: "transparent"
-        anchors.bottom: parent.bottom
-        anchors.horizontalCenter: parent.horizontalCenter
-        MouseArea {
-            anchors.fill: parent
-            onClicked: {
-                Qt.quit()
-            }
-        }
-    }
-
     Item {
         id: body
         height: parent.height * .93
@@ -37,7 +22,7 @@ Image {
             SplashButton {
                 id: button
                 anchors.centerIn: parent
-                height: parent.height * .30
+                height: parent.height * .80
                 width: parent.width
                 MouseArea {
                     anchors.fill: parent
@@ -47,6 +32,20 @@ Image {
                     }
                 }
             }
+
+            SplashPageFooterBlock {
+                id: footer
+                anchors.bottom: parent.bottom
+                height: parent.height * .20
+                width: parent.width
+                MouseArea {
+                    anchors.fill: parent
+                    onClicked: {
+                        Qt.quit()
+                    }
+                }
+            }
+
 
         }
 

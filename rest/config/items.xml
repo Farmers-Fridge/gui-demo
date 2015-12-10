@@ -33,6 +33,46 @@
     <icon>buttons/favorites.png</icon>
   </item>
   <item>
+    <name>Heart</name>
+    <icon>buttons/heart.png</icon>
+  </item>
+  <item>
+    <name>Idea</name>
+    <icon>buttons/idea.png</icon>
+  </item>
+  <item>
+    <name>Mail</name>
+    <icon>buttons/mail.png</icon>
+  </item>
+  <item>
+    <name>Not Allowed</name>
+    <icon>buttons/not-allowed.png</icon>
+  </item>
+  <item>
+    <name>Paint</name>
+    <icon>buttons/paint.png</icon>
+  </item>
+  <item>
+    <name>Pencil</name>
+    <icon>buttons/pencil.png</icon>
+  </item>
+  <item>
+    <name>Recycle</name>
+    <icon>buttons/recycle.png</icon>
+  </item>
+  <item>
+    <name>RSS</name>
+    <icon>buttons/rss.png</icon>
+  </item>
+  <item>
+    <name>Search</name>
+    <icon>buttons/search.png</icon>
+  </item>
+  <item>
+    <name>Settings</name>
+    <icon>buttons/settings.png</icon>
+  </item>
+  <item>
     <name>Warning</name>
     <icon>buttons/warning.png</icon>
   </item>
